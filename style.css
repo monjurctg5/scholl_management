@@ -1,8 +1,10 @@
-*{
+html,body{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+    overflow-x: hidden;
 
+  
 }
 .flex{
     display: flex;
@@ -37,8 +39,7 @@
     background-color: rgb(3, 33, 63);
     padding: 10px 100px ;
     border-radius: 20px;
-
-    
+ 
 }
 .nav-item p:hover{
     background-color:rgb(226, 198, 36);
@@ -172,12 +173,6 @@ nav {
         width: 20%;
       
     }
-    .nav-item p{
-    
-        padding: 10px 10px ;
-
-    }
-
  .nav-item a{
  
      font-size: 30px;
@@ -194,7 +189,7 @@ nav {
  }
  .student-card{
  width: 30%;
- margin-top:30px;
+ margin-top:10px;
  }
 
  header{
