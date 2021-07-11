@@ -171,7 +171,7 @@ nav {
 @media (max-width:600px){
     .flex{
         display: block;
-        overflow-x: hidden;
+      
         
     }
     .nav-section{
@@ -227,9 +227,13 @@ nav {
  
  
  .information{
-     width: 100%;
+    width: 100%;
     position: absolute;
     left: 150px;
+ }
+ .icon{
+     position: absolute;
+
  }
  header{
  width: 100%;
